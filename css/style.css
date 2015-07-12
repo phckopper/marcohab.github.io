@@ -1,0 +1,11 @@
+#page {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+}
+#photo {
+  float: left;
+}
+li {
+  list-style: none;
+}
