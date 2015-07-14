@@ -182,6 +182,7 @@ li {
 /* Line Height */
 #post-body, p {
 	line-height: 1.7;
+	text-align: justify;
 }
 
 b, strong {
