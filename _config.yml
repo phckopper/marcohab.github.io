@@ -1,0 +1,34 @@
+name: Marco Antônio Habitzreuter
+description: Always learning new stuff.
+meta_description: "My personal website."
+
+blogPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://marcohab.me'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://marcoahab.me/blog'
+author:         'Marco Antônio Habitzreuter'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
