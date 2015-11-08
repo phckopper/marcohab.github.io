@@ -1,9 +1,16 @@
 ---
-profile: true
+layout: home
 ---
-<p>Hi, I'm Marco!</p>
-<p>I'm an Electronics Technician student from Dois Irmãos, Brazil.</p>
-<p>I have a lot of interest for open-source software, microcontrollers and embedded systems, 
-specially about hardware and software integration.</p>
-<p>You can contact me through <a href="mailto:marcoahab@gmail.com">marcoahab@gmail.com</a>, 
-<a href="https://br.linkedin.com/in/marcoahab">LinkedIn</a> and <a href="http://facebook.com/habitzm">Facebook</a>.</p>
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>Sou <strong>{{ site.author }}</strong>, estudante de Eletrônica.</h3>
+	  <h3>Veja meu trabalho no <a href="/blog.html">blog</a> e no <a href="github.com/marcoahab">Github</a>.</h3>
+	  <h3>Para mais detalhes, acesse meu <a href="/vitae">curriculo</a>.</h3>
+	  <h3>Entre em contato comigo por <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>

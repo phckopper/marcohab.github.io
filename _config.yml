@@ -1,34 +1,24 @@
-name: Marco Antônio Habitzreuter
-description: Always learning new stuff.
-meta_description: "My personal website."
-
-blogPage: true
-
-markdown: redcarpet
+# top level stuff you probably don't need to touch
 highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+port: 3000
+safe: true
 
-paginate: 20
+# edit here to achieve your personal greatness
+url: http://marcoahab.me/
 baseurl: /
-domain_name: 'http://marcohab.me'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus_shortname: 'your-disqus-shortname'
-
-# Details for the RSS feed generator
-url:            'http://marcoahab.me/blog'
-author:         'Marco Antônio Habitzreuter'
-
-permalink:       /:year/:title/
-
-defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: default
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
+title: Marco Antônio Habitzreuter
+author: Marco Antônio Habitzreuter
+description: Página pessoal
+avatar: profile.png
+email: marcoahab@gmail.com
+github: marcoahab
+twitter:
+facebook: habitzm
+linkedin: marcoahab
+disqus: username
+google_analytics:
