@@ -10,7 +10,7 @@ body {
 }
 /* Wrapper for page content to push down footer */
 #wrap {
-  padding-bottom: 50px;	
+  padding-bottom: 50px;
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
@@ -145,6 +145,7 @@ body {
 }
 .blog-post{
   padding-top: 15px;
+    text-align: justify;
 }
 .blog-title{
   padding-top: 2px;
@@ -159,7 +160,7 @@ body {
   padding-bottom: 15px;
 }
 
-/* Footer 
+/* Footer
 -------------------------------------------------- */
 
 .footer {
@@ -175,5 +176,5 @@ div.footer{
 /*.footer {
   height: 50px;
   padding-bottom: 15px;
-  
+
 }*/
