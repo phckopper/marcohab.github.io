@@ -9,8 +9,8 @@ port: 3000
 safe: true
 
 # edit here to achieve your personal greatness
-url: http://marcohab.me
-baseurl:
+url: marcohab.me
+baseurl: /
 title: Marco Antônio Habitzreuter
 author: Marco Antônio Habitzreuter
 description: Página pessoal
