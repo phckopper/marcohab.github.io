@@ -131,7 +131,13 @@ body {
 }
 .panel-body {
   padding-top: -10px;
-  text-align: left;
+  text-align: center;
+}
+.panel-body > h4 > p {
+  text-align: justify;
+}
+.panel-body > h4 > .center{
+  text-align: center;
 }
 .social {
   padding-top: 12px;
