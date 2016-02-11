@@ -1,10 +1,14 @@
 ---
-layout: layout
-title: Page not found!
+layout: page
+title: 404
+sitemap:
+  exclude: 'yes'
 ---
 
-<div class="container">
-  <div class="page-not-found">
-    <h3>Uh oh, algo deu errado.</h3>
-  </div>
-</div>
+<h2 class="go-home">
+    I suggest you <a href="/">going home</a>, it's 404 and it's getting dark!
+</h2>
+
+
+<!-- Adding the glitch effect -->
+<script> document.getElementsByTagName('body')[0].classList.add('glitch'); </script>

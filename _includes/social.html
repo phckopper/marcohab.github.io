@@ -1,7 +1,32 @@
-<div class="social">
-  <h4>
-    <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
-    <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
-    <a href="http://facebook.com/in/{{ site.facebook }}"><i class="fa fa-facebook"></i></a>
-  </h4>
-</div>
+<ul class="social-links">
+
+{% if site.author.mail %}
+  <a href="mailto:{{ site.author.mail }}" class="social-links__entry" target="_blank">
+    <i class="fa fa-envelope"></i>
+  </a>
+{% endif %}
+
+{% if site.author.github %}
+  <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+    <i class="fa fa-github"></i>
+  </a>
+{% endif %}
+
+{% if site.author.twitter %}
+  <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+    <i class="fa fa-twitter"></i>
+  </a>
+{% endif %}
+
+{% if site.author.linkedin %}
+  <a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
+    <i class="fa fa-linkedin"></i>
+  </a>
+{% endif %}
+
+{% if site.author.keybase %}
+  <a href="https://keybase.io/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
+    <i class="fa fa-key"></i>
+  </a>
+{% endif %}
+</ul>
