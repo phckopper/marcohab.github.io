@@ -4,6 +4,7 @@ title:  "Esquema do PIC16F690 e PIC18F4550"
 subtitle:
 date:   2015-11-08 23:34:01
 categories: [microcontroladores]
+visible: true
 ---
 
 Ano passado criei um desenho do PIC16F690 e do PIC18F4550 através de texto para colocar nos meus códigos e facilitar a programação. Como várias pessoas pediram, pensei que seria interessante postar aqui.
